@@ -22,7 +22,7 @@
     "react-scripts": "^ 5.0.1",
     "tailwind-merge": "^3.4.0",
     "web-vitals": "^2.1.4",
-    "homepage": "https://github.com/11AbiRam11/My_Portfolio"
+    "homepage": "https://11AbiRam11.github.io/My_Portfolio"
   },
   "scripts": {
     "start": "react-app-rewired start",
