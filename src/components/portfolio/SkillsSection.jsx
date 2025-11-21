@@ -72,11 +72,10 @@ const skillCategories = [
 ];
 
 const techStack = [
-  "Python", "SQL", "Azure", "PySpark", "Databricks", "Delta Lake",
-  "ADF", "MongoDB", "Docker", "Git", "Node.js", "Express.js",
-  "React.js", "AWS", "Linux", "Power BI", "Jinja2", "Logic Apps",
-  "C", "C++", "Java", "REST APIs", "PyTorch", "TensorFlow", "Machine Learning",
-  
+  "Python", "SQL", "Azure", "PySpark", "Databricks", "Delta Lake", "Data Warehousing",
+  "ADF", "MongoDB", "Docker", "Git", "MERN", "Machine Learning", "Deep Learning", "PyTorch", "TensorFlow",
+  "word2vec", "Vector DB's", "NLP", "AWS", "Linux", "Power BI", "Jinja2", "Azure Logic Apps",
+  "C", "C++", "Java", "REST APIs"
 ];
 
 export default function SkillsSection() {

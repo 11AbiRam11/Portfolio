@@ -98,7 +98,7 @@ const education = [
       "Consistently maintained 9.0 CGPA throughout the program",
       "Active participation in technical clubs and data engineering communities"
     ]
-  }
+  },
 ];
 
 const certifications = [
@@ -125,8 +125,8 @@ const experience = [
     company: "Durbhasi Gurukulam PVT Ltd",
     period: "Feb 2025 - Apr 2025",
     highlights: [
-      "Developed and deployed 5+ Capture-the-Flag (CTF) challenges using Node.js/Express",
-      "Covered vulnerabilities such as JWT forgery, session hijacking, SSRF, and CSRF",
+      "Developed and deployed 5+ Capture-the-Flag (CTF) challenges using MERN tech stack",
+      "Covered vulnerabilities such as JWT forgery, session hijacking, SSRF, CSRF and many more",
       "Containerized sandboxed environments with Docker Compose",
       "Automated flag validation in Node.js and Express, reducing deployment time by 30%",
       "Authored detailed walkthroughs and hint tiers that cut average solve-time variance by 20%",
@@ -246,6 +246,7 @@ export default function Portfolio() {
             <div className="grid md:grid-cols-2 gap-12">
               <div className="space-y-6">
                 <p className="text-gray-300 leading-relaxed text-lg">
+                  <span className="block text-[#00D9FF] font-bold text-2xl mb-2">Hi, I'm AbhiRam,</span>
                   <span className="text-[#00D9FF] font-semibold">Analytical Data Engineer</span> (9.0 CGPA) focused on
                   building scalable, production-ready data solutions. I specialize in full-cycle pipeline development using
                   Azure, PySpark, and Delta Lake with proven ability to leverage engineering rigor and automation.
@@ -473,7 +474,7 @@ export default function Portfolio() {
                 className="bg-[#00D9FF] hover:bg-[#00D9FF]/80 text-black font-mono font-semibold px-8 py-6 text-lg rounded-lg shadow-lg shadow-[#00D9FF]/30 transition-all hover:shadow-[#00D9FF]/50"
                 onClick={() =>
                   window.location.href =
-                  'mailto:1mail4dev@gmail.com?subject=Regarding%20Data%20Engineering%20Opportunity&body=Hi,%20I%20saw%20your%20portfolio%20and...'
+                  'mailto:1mail4devs@gmail.com?subject=Regarding%20Data%20Engineering%20Opportunity&body=Hi,%20I%20saw%20your%20portfolio%20and...'
                 }
               >
                 <Mail className="w-5 h-5 mr-2" />
@@ -485,7 +486,7 @@ export default function Portfolio() {
                 className="border-[#00D9FF]/50 hover:border-[#00D9FF] text-[#00D9FF] font-mono font-semibold px-8 py-6 text-lg rounded-lg hover:bg-[#00D9FF]/10 transition-all"
                 onClick={() => {
                   const link = document.createElement("a");
-                  link.href = "/abhiram.pdf"; // ← file inside public
+                  link.href = process.env.PUBLIC_URL + "/abhiram.pdf"; // ← file inside public
                   link.download = "Abhiram_Resume.pdf"; // file name user sees
                   link.click();
                 }}
@@ -497,7 +498,7 @@ export default function Portfolio() {
 
             <div className="flex items-center justify-center gap-6 pt-8">
               <a
-                href="https://github.com/11Abiram"
+                href="https://github.com/11Abiram11"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-[#00D9FF] transition-colors"

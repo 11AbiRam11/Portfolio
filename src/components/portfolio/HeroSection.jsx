@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 export default function HeroSection() {
   const [text, setText] = useState('');
   const [showCursor, setShowCursor] = useState(true);
-  const fullText = 'Analytical Data Engineer';
+  const fullText = 'GenAI Data Engineer';
 
   useEffect(() => {
     let index = 0;
@@ -89,7 +89,7 @@ export default function HeroSection() {
             Building <span className="text-white font-semibold">scalable, production-ready data solutions</span> with 
             expertise in <span className="text-[#00D9FF] font-semibold">full-cycle pipeline development</span>. 
             Specialized in <span className="text-[#00D9FF] font-semibold">Azure, PySpark, Delta Lake</span>, 
-            and engineering rigor with <span className="text-[#00D9FF] font-semibold">CDC/SCD automation</span>.
+            and engineering rigor with <span className="text-[#00D9FF] font-semibold">CDC/SCD automation</span> with <span className="text-white font-semibold"> GenAi and working knowledge of LLM's.</span>
           </motion.p>
         </div>
 
@@ -100,7 +100,7 @@ export default function HeroSection() {
           transition={{ delay: 1 }}
           className="flex flex-wrap items-center justify-center gap-3 pt-4"
         >
-          {['Azure ADF', 'Databricks', 'PySpark', 'Delta Lake', 'Python', 'SQL'].map((tech, index) => (
+          {['Azure ADF', 'Databricks', 'PySpark', 'Delta Lake', 'Python', 'SQL', 'PyTorch'].map((tech, index) => (
             <span
               key={tech}
               className="px-4 py-2 bg-[#1A1A1A] border border-[#00D9FF]/30 rounded-lg text-sm font-mono text-gray-300 hover:border-[#00D9FF] hover:shadow-lg hover:shadow-[#00D9FF]/20 transition-all cursor-default"
